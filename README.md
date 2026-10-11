@@ -58,7 +58,7 @@ ExtractAudioGPT is designed to process audio locally, without external conversio
 
 ## Project status
 
-**Version 1.0.7 (testing).** Changes to ChatGPT's interface, manual audio downloads, and MP3 conversion still require end-to-end testing before they can be considered stable.
+**Version 1.0.8 (testing).** Changes to ChatGPT's interface, manual audio downloads, and MP3 conversion still require end-to-end testing before they can be considered stable.
 
 - [Privacy policy](PRIVACY.md)
 - [Report an issue](https://github.com/jasp402/ExtractAudioGPT/issues)
