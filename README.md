@@ -34,9 +34,9 @@
 
 ## Getting started
 
-**Until public distribution is available**, you can install the development version:
+To install the current release manually:
 
-1. Download this repository as a ZIP and extract it.
+1. Download **ExtractAudioGPT.zip** from the [latest GitHub Release](https://github.com/jasp402/ExtractAudioGPT/releases) and extract it. Do not use GitHub's auto-generated **Source code (zip)** archive.
 2. Open `chrome://extensions` in Chrome and enable **Developer mode**.
 3. Click **Load unpacked** and select the folder containing `manifest.json`.
 4. Visit `https://chatgpt.com/` and play a response using **Read Aloud**.
@@ -58,10 +58,9 @@ ExtractAudioGPT is designed to process audio locally, without external conversio
 
 ## Project status
 
-**Version 1.0.6 (testing).** Changes to ChatGPT's interface, manual audio downloads, and MP3 conversion still require end-to-end testing before they can be considered stable.
+**Version 1.0.7 (testing).** Changes to ChatGPT's interface, manual audio downloads, and MP3 conversion still require end-to-end testing before they can be considered stable.
 
-- [QA report](QA_REPORT.md)
-- [Publishing workflow](PUBLISHING.md)
-- [License](LICENSE)
+- [Privacy policy](PRIVACY.md)
+- [Report an issue](https://github.com/jasp402/ExtractAudioGPT/issues)
 
 *ExtractAudioGPT is an independent project and is not affiliated with OpenAI.*
