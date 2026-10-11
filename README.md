@@ -1,6 +1,6 @@
 <div align="center">
 
-![ExtractAudioGPT — Don't Just Listen. Keep Your Audio](docs/images/ExtractAudioGPT-English-Banner.png)
+![ExtractAudioGPT — Don't Just Listen. Keep Your Audio](assets/ExtractAudioGPT-English-Banner.png)
 
 # ExtractAudioGPT
 
@@ -28,19 +28,19 @@ These screenshots show the real extension interface and the download workflow.
 
 ### 1. Set your preferences
 
-![ExtractAudioGPT popup showing automatic downloads and MP3 conversion](docs/images/01-extension-settings.png)
+![ExtractAudioGPT popup showing automatic downloads and MP3 conversion](assets/01-extension-settings.png)
 
 Use the extension popup to enable or disable **Automatic downloads**. Check **Convert to MP3** if you prefer MP3 files. You can still download audio manually when automatic downloads are disabled.
 
 ### 2. Save audio from a ChatGPT response
 
-![ExtractAudioGPT download button beside the ChatGPT Read Aloud action](docs/images/02-download-button.png)
+![ExtractAudioGPT download button beside the ChatGPT Read Aloud action](assets/02-download-button.png)
 
 Open a ChatGPT conversation, find the response you want to keep, and click the **Download audio** icon in its action bar. ChatGPT's interface can differ between browsers and sessions.
 
 ### 3. Find your downloaded file
 
-![Chrome download confirmation showing a saved ChatGPT MP3 file](docs/images/03-downloaded-mp3.png)
+![Chrome download confirmation showing a saved ChatGPT MP3 file](assets/03-downloaded-mp3.png)
 
 Your browser saves the audio to **Downloads/ExtractAudioGPT**. With MP3 conversion enabled, the file can be saved as an MP3; if conversion fails, the extension attempts to save the original format instead.
 
@@ -70,7 +70,7 @@ Audio processing and optional MP3 conversion run in your browser. The extension 
 
 <div align="center">
 
-![ExtractAudioGPT — Download Audio From ChatGPT](docs/images/ExtractAudioGPT-promo.png)
+![ExtractAudioGPT — Download Audio From ChatGPT](assets/ExtractAudioGPT-promo.png)
 
 ### Your audio, your files, your workflow.
 
