@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "ExtractAudioGPT",
+  "version": "1.0.5",
+  "description": "Descarga manual o automática de audio de lectura en voz alta de ChatGPT, con conversión local opcional a MP3.",
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ExtractAudioGPT",
+    "default_icon": {
+      "128": "assets/extractaudiogpt-icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "page-hook.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "vendor/lame.min.js",
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "version_name": "1.0.5+8ea0721",
+  "icons": {
+    "128": "assets/extractaudiogpt-icon.png"
+  }
+}
