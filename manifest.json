@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ExtractAudioGPT",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Descarga manual o automática de audio de lectura en voz alta de ChatGPT, con conversión local opcional a MP3.",
   "permissions": [
     "storage",
@@ -45,7 +45,7 @@
       "run_at": "document_start"
     }
   ],
-  "version_name": "1.0.5+8ea0721",
+  "version_name": "1.0.6+f13d521",
   "icons": {
     "128": "assets/extractaudiogpt-icon.png"
   }

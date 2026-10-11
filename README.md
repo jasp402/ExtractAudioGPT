@@ -4,64 +4,64 @@
 
 <h1 align="center">ExtractAudioGPT</h1>
 
-<p align="center"><strong>Descarga los audios de ChatGPT con un clic.</strong></p>
+<p align="center"><strong>Download ChatGPT audio with a single click.</strong></p>
 
 <p align="center">
-  Convierte la función «Leer en voz alta» de ChatGPT en archivos que puedes guardar, escuchar y reutilizar cuando quieras.
+  Turn ChatGPT's Read Aloud feature into audio files you can save, listen to, and reuse whenever you want.
 </p>
 
 <p align="center">
-  <a href="https://github.com/jasp402/ExtractAudioGPT/releases"><strong>Descargar extensión</strong></a>
+  <a href="https://github.com/jasp402/ExtractAudioGPT/releases"><strong>Get the extension</strong></a>
   ·
-  <a href="https://github.com/jasp402/ExtractAudioGPT/issues/new/choose">Solicitar soporte</a>
+  <a href="https://github.com/jasp402/ExtractAudioGPT/issues/new/choose">Get support</a>
   ·
-  <a href="PRIVACY.md">Privacidad</a>
+  <a href="PRIVACY.md">Privacy policy</a>
 </p>
 
-> **Estado:** versión de prueba. La distribución pública y la publicación en Chrome Web Store están en preparación; las funciones todavía requieren validación completa en Chrome.
+> **Status:** Testing release. Public distribution and Chrome Web Store availability are being prepared. Full functionality has not yet been verified in Chrome.
 
-## Tu audio, a tu manera
+## Your audio, your way
 
-| Función | Qué puedes hacer |
+| Feature | What you can do |
 | --- | --- |
-| **Descarga con un clic** | Utiliza el botón junto a «Leer en voz alta» para guardar el audio de una respuesta. |
-| **Descarga automática** | Activa **YES** y la extensión intentará descargar los nuevos audios cuando los reproduzcas. |
-| **MP3 opcional** | Convierte el audio localmente a MP3 para escucharlo en más dispositivos. |
-| **Conserva el original** | Desmarca la conversión para guardar el formato recibido, sin recodificar. |
-| **Control inmediato** | Desactiva la descarga automática con **NO** sin perder la opción manual. |
+| **One-click downloads** | Use the button next to **Read Aloud** to save the audio from a ChatGPT response. |
+| **Automatic downloads** | Turn **YES** on to automatically download newly played audio when captured. |
+| **Optional MP3 conversion** | Convert captured audio to MP3 locally for broader device compatibility. |
+| **Keep the original format** | Turn MP3 conversion off to save the received audio without re-encoding. |
+| **Stay in control** | Set automatic downloads to **NO** while keeping manual downloads available. |
 
-**Sin subir tus audios a servidores propios.** El procesamiento y la conversión se realizan en tu navegador; los archivos se guardan mediante las descargas de Chrome. Las preferencias se almacenan en `chrome.storage.sync`.
+**Your audio is not uploaded to our servers.** Processing and conversion happen in your browser, and Chrome handles file downloads. Settings are stored using `chrome.storage.sync`.
 
-## Cómo empezar
+## Getting started
 
-**Mientras se habilita la distribución pública**, puedes instalar la versión de desarrollo:
+**Until public distribution is available**, you can install the development version:
 
-1. Descarga el ZIP de este repositorio y descomprímelo.
-2. Abre `chrome://extensions` en Chrome y activa **Modo desarrollador**.
-3. Selecciona **Cargar descomprimida** y elige la carpeta que contiene `manifest.json`.
-4. Abre `https://chatgpt.com/` y reproduce una respuesta mediante **Leer en voz alta**.
-5. Usa el botón de descarga junto al mensaje, o abre el popup de la extensión y selecciona **YES** para habilitar la descarga automática.
+1. Download this repository as a ZIP and extract it.
+2. Open `chrome://extensions` in Chrome and enable **Developer mode**.
+3. Click **Load unpacked** and select the folder containing `manifest.json`.
+4. Visit `https://chatgpt.com/` and play a response using **Read Aloud**.
+5. Click the download button next to the response, or open the extension popup and choose **YES** to enable automatic downloads.
 
-Los archivos se guardan en `Descargas/ExtractAudioGPT`. Si eliges MP3 y el navegador no puede convertir el audio, la extensión conserva el formato original.
+Downloaded files are saved to `Downloads/ExtractAudioGPT`. If MP3 conversion fails, the extension saves the original audio format instead.
 
-## ¿Necesitas ayuda?
+## Need help?
 
-¿La descarga no aparece, falla la conversión o ChatGPT cambió su interfaz? **Abre un Issue** y describe qué ocurrió:
+Is a download missing, MP3 conversion failing, or has ChatGPT changed its interface? **Open a GitHub Issue** and tell us what happened.
 
-**[Reportar un problema o proponer una mejora →](https://github.com/jasp402/ExtractAudioGPT/issues/new/choose)**
+**[Report a bug or request a feature →](https://github.com/jasp402/ExtractAudioGPT/issues/new/choose)**
 
-Incluye la versión de la extensión, la versión de Chrome y los pasos para reproducir el error. **No compartas conversaciones privadas, cookies ni tokens de sesión.**
+Please include your extension version, Chrome version, and steps to reproduce the issue. **Do not share private conversations, cookies, or session tokens.**
 
-## Privacidad y transparencia
+## Privacy and transparency
 
-ExtractAudioGPT está diseñada para procesar el audio localmente, sin servicios externos de conversión ni analítica propia. Consulta la [política de privacidad](PRIVACY.md) para conocer el tratamiento del audio y de las preferencias sincronizadas.
+ExtractAudioGPT is designed to process audio locally, without external conversion services or developer-operated analytics. See the [privacy policy](PRIVACY.md) for details about audio handling and synchronized preferences.
 
-## Estado del proyecto
+## Project status
 
-**Versión 1.0.5 (pruebas).** La compatibilidad con cambios de la interfaz de ChatGPT, la descarga manual y la conversión MP3 necesitan pruebas E2E antes de considerarse estables.
+**Version 1.0.6 (testing).** Changes to ChatGPT's interface, manual audio downloads, and MP3 conversion still require end-to-end testing before they can be considered stable.
 
-- [Informe de QA](QA_REPORT.md)
-- [Proceso de publicación](PUBLISHING.md)
-- [Licencia](LICENSE)
+- [QA report](QA_REPORT.md)
+- [Publishing workflow](PUBLISHING.md)
+- [License](LICENSE)
 
-*ExtractAudioGPT es un proyecto independiente; no está afiliado a OpenAI.*
+*ExtractAudioGPT is an independent project and is not affiliated with OpenAI.*
