@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ExtractAudioGPT",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Download ChatGPT Read Aloud audio manually or automatically, with optional local MP3 conversion.",
   "permissions": [
     "storage",
@@ -45,7 +45,7 @@
       "run_at": "document_start"
     }
   ],
-  "version_name": "1.0.8+22db21f",
+  "version_name": "1.0.9+9cd82c4",
   "icons": {
     "128": "assets/extractaudiogpt-icon.png"
   }
