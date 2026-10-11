@@ -1,66 +1,89 @@
-<p align="center">
-  <img src="assets/extractaudiogpt-icon.png" width="128" alt="ExtractAudioGPT">
-</p>
+<div align="center">
 
-<h1 align="center">ExtractAudioGPT</h1>
+![ExtractAudioGPT — Don't Just Listen. Keep Your Audio](docs/images/ExtractAudioGPT-English-Banner.png)
 
-<p align="center"><strong>Download ChatGPT audio with a single click.</strong></p>
+# ExtractAudioGPT
 
-<p align="center">
-  Turn ChatGPT's Read Aloud feature into audio files you can save, listen to, and reuse whenever you want.
-</p>
+### Don't just listen. Keep it.
 
-<p align="center">
-  <a href="https://github.com/jasp402/ExtractAudioGPT/releases"><strong>Get the extension</strong></a>
-  ·
-  <a href="https://github.com/jasp402/ExtractAudioGPT/issues/new/choose">Get support</a>
-  ·
-  <a href="PRIVACY.md">Privacy policy</a>
-</p>
+**Save ChatGPT Read Aloud audio in one click.** Download a response manually, turn on automatic saving, or convert captured audio to MP3 directly in your browser.
 
-> **Status:** Testing release. Public distribution and Chrome Web Store availability are being prepared. Full functionality has not yet been verified in Chrome.
+[**Download the latest release →**](https://github.com/jasp402/ExtractAudioGPT/releases) · [**Report an issue**](https://github.com/jasp402/ExtractAudioGPT/issues/new/choose) · [**Privacy policy**](PRIVACY.md)
 
-## Your audio, your way
+</div>
 
-| Feature | What you can do |
-| --- | --- |
-| **One-click downloads** | Use the button next to **Read Aloud** to save the audio from a ChatGPT response. |
-| **Automatic downloads** | Turn **YES** on to automatically download newly played audio when captured. |
-| **Optional MP3 conversion** | Convert captured audio to MP3 locally for broader device compatibility. |
-| **Keep the original format** | Turn MP3 conversion off to save the received audio without re-encoding. |
-| **Stay in control** | Set automatic downloads to **NO** while keeping manual downloads available. |
+## Your ChatGPT audio. Saved.
 
-**Your audio is not uploaded to our servers.** Processing and conversion happen in your browser, and Chrome handles file downloads. Settings are stored using `chrome.storage.sync`.
+ChatGPT can read responses aloud. **ExtractAudioGPT makes it easier to keep those recordings**—without screen recording, separate audio capture tools, or external conversion services.
 
-## Getting started
+| One-click download | Automatic saving | Optional MP3 | Local processing |
+| :--- | :--- | :--- | :--- |
+| Save audio using the download control beside a ChatGPT response. | Turn on automatic downloads when Read Aloud audio is captured. | Convert captured audio to MP3 in your browser. | Audio is processed locally, not uploaded to developer-operated servers. |
 
-To install the current release manually:
+> **Independent extension:** ExtractAudioGPT is not affiliated with, endorsed by, or sponsored by OpenAI.
 
-1. Download **ExtractAudioGPT.zip** from the [latest GitHub Release](https://github.com/jasp402/ExtractAudioGPT/releases) and extract it. Do not use GitHub's auto-generated **Source code (zip)** archive.
-2. Open `chrome://extensions` in Chrome and enable **Developer mode**.
-3. Click **Load unpacked** and select the folder containing `manifest.json`.
-4. Visit `https://chatgpt.com/` and play a response using **Read Aloud**.
-5. Click the download button next to the response, or open the extension popup and choose **YES** to enable automatic downloads.
+## See it in action
 
-Downloaded files are saved to `Downloads/ExtractAudioGPT`. If MP3 conversion fails, the extension saves the original audio format instead.
+These screenshots show the real extension interface and the download workflow.
 
-## Need help?
+### 1. Set your preferences
 
-Is a download missing, MP3 conversion failing, or has ChatGPT changed its interface? **Open a GitHub Issue** and tell us what happened.
+![ExtractAudioGPT popup showing automatic downloads and MP3 conversion](docs/images/01-extension-settings.png)
 
-**[Report a bug or request a feature →](https://github.com/jasp402/ExtractAudioGPT/issues/new/choose)**
+Use the extension popup to enable or disable **Automatic downloads**. Check **Convert to MP3** if you prefer MP3 files. You can still download audio manually when automatic downloads are disabled.
 
-Please include your extension version, Chrome version, and steps to reproduce the issue. **Do not share private conversations, cookies, or session tokens.**
+### 2. Save audio from a ChatGPT response
 
-## Privacy and transparency
+![ExtractAudioGPT download button beside the ChatGPT Read Aloud action](docs/images/02-download-button.png)
 
-ExtractAudioGPT is designed to process audio locally, without external conversion services or developer-operated analytics. See the [privacy policy](PRIVACY.md) for details about audio handling and synchronized preferences.
+Open a ChatGPT conversation, find the response you want to keep, and click the **Download audio** icon in its action bar. ChatGPT's interface can differ between browsers and sessions.
 
-## Project status
+### 3. Find your downloaded file
 
-**Version 1.0.9 (testing).** Changes to ChatGPT's interface, manual audio downloads, and MP3 conversion still require end-to-end testing before they can be considered stable.
+![Chrome download confirmation showing a saved ChatGPT MP3 file](docs/images/03-downloaded-mp3.png)
 
-- [Privacy policy](PRIVACY.md)
-- [Report an issue](https://github.com/jasp402/ExtractAudioGPT/issues)
+Your browser saves the audio to **Downloads/ExtractAudioGPT**. With MP3 conversion enabled, the file can be saved as an MP3; if conversion fails, the extension attempts to save the original format instead.
 
-*ExtractAudioGPT is an independent project and is not affiliated with OpenAI.*
+## How to install
+
+Until the Chrome Web Store listing is approved, install the test release manually:
+
+1. Download **ExtractAudioGPT.zip** from [GitHub Releases](https://github.com/jasp402/ExtractAudioGPT/releases). **Do not download** GitHub's automatically generated `Source code (zip)` archive.
+2. Extract the ZIP into a folder.
+3. In Chrome, open `chrome://extensions` and enable **Developer mode**.
+4. Select **Load unpacked** and choose the folder containing `manifest.json`.
+5. Open [ChatGPT](https://chatgpt.com/), play **Read Aloud**, and use the new download control—or enable automatic downloads in the popup.
+
+## Designed for everyday workflows
+
+**Study and review.** Keep spoken explanations for later listening.
+
+**Create and organize.** Save useful AI narration alongside your projects and notes.
+
+**Stay productive.** Revisit audio without hunting for the same conversation again.
+
+### Privacy by design
+
+Audio processing and optional MP3 conversion run in your browser. The extension does not upload recordings to developer-operated servers. Preferences are saved using `chrome.storage.sync`, which may sync through your browser account. See the [full privacy policy](PRIVACY.md).
+
+---
+
+<div align="center">
+
+![ExtractAudioGPT — Download Audio From ChatGPT](docs/images/ExtractAudioGPT-promo.png)
+
+### Your audio, your files, your workflow.
+
+**One click · Automatic downloads · Optional MP3**
+
+[**Get ExtractAudioGPT →**](https://github.com/jasp402/ExtractAudioGPT/releases) · [**Get support →**](https://github.com/jasp402/ExtractAudioGPT/issues/new/choose)
+
+</div>
+
+## Support and status
+
+**Current test release: v1.0.9.** The Chrome Web Store submission is in preparation/review; installation through the store is not yet confirmed. Browser compatibility and ChatGPT interface changes may affect operation.
+
+If something fails, [open an issue](https://github.com/jasp402/ExtractAudioGPT/issues/new/choose) with your extension version, browser version, and reproduction steps. **Never share private conversations, cookies, or session tokens.**
+
+*ExtractAudioGPT is an independent open-source project and is not affiliated with OpenAI.*
